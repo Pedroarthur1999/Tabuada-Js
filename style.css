@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: white;
+    margin: 20px 0px;
+}
+
+body {
+    background-color: rgb(4, 0, 255);
+    text-align: center;
+    align-content: center;
+    padding: 10px;
+}
+
+section {
+    margin: 10px;
+    width: 450px;
+    height: auto;
+    border-radius: 10px;
+    margin: auto;
+    background-color: white;
+}
+
+div {
+    padding: 10px;
+}
+
+select {
+    max-width: 430px;
+    border-color: white;
+    border-width: 5px;
+    border-radius: 10px;
+    -webkit-transition: all 2s ease;
+}
+
+select:hover {
+    transition: 2s;
+    border-color: red;
+}
+
+select::-webkit-scrollbar {
+    display: none;
+}
+
+option {
+    padding: 5px;
+}
+
+div p {
+    padding: 5px
+}
+
+input {
+    padding: 5px;
+}
+
+footer {
+    color: white;
+    margin-top: 10px;
+}
