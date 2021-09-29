@@ -13,7 +13,7 @@ function tabuada() {
         let cont = Number(n1);
         let valorFinal = Number;
         resultado.innerHTML = ''
-        for (i = 0; i <= 10; i++) {
+        for (i = 1; i <= 10; i++) {
             valorFinal = cont * i;
             let item = document.createElement('option')
             item.value = `tab${i}`
